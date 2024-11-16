@@ -6,15 +6,6 @@ html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-:root{
-    --primary-color: blue;
-    --secondary-color: green;
-    --background-color: aliceblue;
-    --link-color: brown;
-    --primitive-color:white;
-    --text-color: black;
-    --hover-button-color: rgb(30, 99, 228);
-}
 
 .deal{
   color: orange;
@@ -75,4 +66,92 @@ html {
   position: relative;
   text-align: left;
   text-size-adjust: 100%;
+  width: 73%;
+}
+
+.col2{
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.timer{
+  box-sizing: border-box;
+  color: rgb(5, 25, 34);
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .1px;
+  line-height: 25.2px;
+  margin-bottom: 25px;
+  position: relative;
+  text-align: left;
+  text-size-adjust: 100%;
+}
+
+.counter{
+  border-bottom-color: rgb(242, 129, 35);
+  border-bottom-style: solid;
+  border-bottom-width: 1.6px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(242, 129, 35);
+  border-left-style: solid;
+  border-left-width: 1.6px;
+  border-right-color: rgb(242, 129, 35);
+  border-right-style: solid;
+  border-right-width: 1.6px;
+  border-top-color: rgb(242, 129, 35);
+  border-top-style: solid;
+  border-top-width: 1.6px;
+  box-sizing: border-box;
+  color: rgb(5, 25, 34);
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .1px;
+  line-height: 13px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.inside{
+  box-sizing: border-box;
+  color: rgb(5, 25, 34);
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .1px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: capitalize;  
+}
+
+.count{
+  box-sizing: border-box;
+  color: rgb(242, 129, 35);
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 42px;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  text-align: center;
+  text-transform: capitalize;
 }
