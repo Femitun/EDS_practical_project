@@ -188,3 +188,8 @@ html {
   transition-timing-function: ease;
   border: none;
 }
+
+.atc:hover{
+  background-color: black;
+  color: rgb(242, 129, 35);
+}
